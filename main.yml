@@ -1,0 +1,9 @@
+- name: Hello World
+  hosts: localhost
+  tasks:
+    - name: Display hello world in terminal
+      ansible.builtin.debug:
+        msg: "Hello world!"
+    - name: hello world 2
+      ansible.builtin.debug:
+        msg: "world hello"
