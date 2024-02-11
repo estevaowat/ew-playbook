@@ -11,3 +11,8 @@ This project install and configure my macbook
 1- Run the command `setup.bash`, this must install:
 - homebrew
 - ansible
+
+2- Run the command `ansible-playbook main.yml` to start setup
+
+
+Obs.: You can only run `ansible-playbook main.yml` to update packages
