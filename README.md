@@ -6,6 +6,9 @@ This project install and configure my macbook
 - Must have a package manager to install dependencies
 - Scripts must be idempotent
 
+**Probably you must have to install homebrew before you clone this project
+and install `git` dependency**
+
 0- Clone this project to machine
 
 1- Run the command `setup.bash`, this must install:
@@ -16,3 +19,25 @@ This project install and configure my macbook
 
 
 Obs.: You can only run `ansible-playbook main.yml` to update packages
+
+This ansible playbook is following this order: 
+- homebrew packages [DONE]
+
+- Configure .dotfiles []
+
+- Configure zsh []
+    
+- Configure shortcut iterm2 []
+    
+- Configure neovim []
+    packages, config
+
+- Configure vscode 
+    config, shortcuts and extensions []
+
+- configure brave bookmarks
+
+- configure language Scripts
+    - asdf (Transfer all Java, kotlin and gradle configuration to asdf)
+
+
