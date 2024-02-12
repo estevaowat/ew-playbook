@@ -1,9 +1,9 @@
-- name: Hello World
+- name: "Configuring machine"
   hosts: localhost
+  roles:
+    - role: homebrew
+      tags: homebrew
   tasks:
-    - name: Display hello world in terminal
+    - name: Displaying message that finished
       ansible.builtin.debug:
-        msg: "Hello world!"
-    - name: hello world 2
-      ansible.builtin.debug:
-        msg: "world hello"
+       msg: "Done!"

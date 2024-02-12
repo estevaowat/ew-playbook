@@ -1,0 +1,31 @@
+### why it has this three lines
+---
+homebrew_cask_packages:
+  - amethyst
+  - discord
+  - docker
+  - font-ubuntu-nerd-font
+  - obsidian
+  - raycast
+  - spotify
+  - vscodium
+  - intellij-idea-ce
+  - iterm2
+  - the-unarchiver
+  - anki
+  - brave-browser
+
+homebrew_packages:
+  - asdf
+  - ca-certificates
+  - coreutils
+  - fd
+  - htop
+  - neovim
+  - tmux
+  - zsh
+  - zsh-completions
+  - tldr
+  - ripgrep
+install_homebrew_if_missing: true
+upgrade_homebrew_packages: true 

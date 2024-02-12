@@ -1,0 +1,18 @@
+### TODO: Replace this variables in a different file
+- name: "Install cask packages"
+  hosts: localhost
+  become: false
+  vars:
+    brew_cask_packages:
+      - amethyst
+      - beekeper-studio
+      - discord
+      - docker
+      - font-ubuntu-nerd-font
+      - obsidian
+      - raycast
+      - spotify
+      - vscodium
+      - intellij-idea-ce
+      - iterm2
+      - the-unarchiver
