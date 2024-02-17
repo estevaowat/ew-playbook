@@ -12,11 +12,12 @@ homebrew_cask_packages:
   - intellij-idea-ce
   - iterm2
   - the-unarchiver
-  - anki
   - brave-browser
 
 homebrew_packages:
   - asdf
+  - git
+  - stow
   - ca-certificates
   - coreutils
   - fd
@@ -27,5 +28,6 @@ homebrew_packages:
   - zsh-completions
   - tldr
   - ripgrep
+  - tree
 install_homebrew_if_missing: true
 upgrade_homebrew_packages: true 
