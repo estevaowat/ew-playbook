@@ -1,0 +1,20 @@
+---
+- name: Check if dotfiles directory exists 
+  stat:
+    path: "{{ dotfiles_repo_local_destination }}"
+  register: dotfiles_directory_stat
+
+- name: Ensure dotfiles repository is cloned locally.
+  git:
+    repo: "{{ dotfiles_repo }}"
+    dest: "{{ dotfiles_repo_local_destination }}"
+  become: no
+  when: not dotfiles_directory_stat.stat.exists
+
+- name: Stow dotfiles
+  shell: cd $HOME/.dotfiles && ./stow.bash
+  tags:
+    - install
+    - dotfiles
+    - stow
+...

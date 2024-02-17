@@ -3,6 +3,8 @@
   roles:
     - role: homebrew
       tags: homebrew
+    - role: dotfiles
+      tags: dotfiles
   tasks:
     - name: Displaying message that finished
       ansible.builtin.debug:
