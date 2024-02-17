@@ -23,13 +23,13 @@ Obs.: You can only run `ansible-playbook main.yml` to update packages
 This ansible playbook is following this order: 
 - homebrew packages [DONE]
 
-- Configure .dotfiles []
+- Configure .dotfiles [DONE]
 
-- Configure zsh []
+- Configure zsh [DONE]
     
 - Configure shortcut iterm2 []
     
-- Configure neovim []
+- Configure neovim [DONE]
     packages, config
 
 - Configure vscode 
