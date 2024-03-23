@@ -29,5 +29,6 @@ homebrew_packages:
   - tldr
   - ripgrep
   - tree
+  - gradle
 install_homebrew_if_missing: true
 upgrade_homebrew_packages: true 
