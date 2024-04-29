@@ -9,7 +9,6 @@ This project install and configure my macbook
 
 ### pre-requisites
 - git
-- homebrew (macos)
 
 ### usage
 0- Clone this project to machine
