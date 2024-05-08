@@ -1,0 +1,11 @@
+---
+- name: Check if the directory exists
+  stat:
+    path: "{{ item.dest }}"
+  register: project_dir
+
+- name: Clone the repository if it doesn't exist
+  git:
+    repo: "{{ item.repo_url }}"
+    dest: "{{ item.dest }}"
+  when: project_dir.stat.exists == False

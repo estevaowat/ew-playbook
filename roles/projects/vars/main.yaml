@@ -1,0 +1,4 @@
+folder_destination: "~/Desktop/projects"
+project:
+  name: nba-scoring-quarkus
+  name: java-playground
