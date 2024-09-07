@@ -7,8 +7,7 @@ homebrew_cask_packages:
   - font-ubuntu-nerd-font
   - obsidian
   - raycast
-  - spotify
-  - vscodium
+  - zed
   - intellij-idea-ce
   - iterm2
   - the-unarchiver
@@ -30,5 +29,6 @@ homebrew_packages:
   - ripgrep
   - tree
   - gradle
+  - shellcheck
 install_homebrew_if_missing: true
-upgrade_homebrew_packages: true 
+upgrade_homebrew_packages: true

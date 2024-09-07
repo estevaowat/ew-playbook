@@ -1,5 +1,5 @@
 ---
-- name: Check if the directory exists
+- name: Check if the project directory exists
   stat:
     path: "{{ item.dest }}"
   register: project_dir

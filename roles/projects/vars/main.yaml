@@ -1,4 +1,8 @@
 folder_destination: "~/Desktop/projects"
 project:
-  name: nba-scoring-quarkus
-  name: java-playground
+  - name: "nba-scoring-quarkus"
+    repo_url: "https://github.com/estevaowat/java-playground.git"
+    dest: "~/Desktop/projects/nba-scoring-quarkus"
+  - name: "java-playground"
+    repo_url: "https://github.com/estevaowat/java-playground.git"
+    dest: "~/Desktop/projects/java-playground"

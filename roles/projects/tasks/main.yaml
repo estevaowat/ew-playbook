@@ -1,6 +1,4 @@
 ---
 - name: clone projects when not exists 
   include_tasks: clone_project.yml
-  loop:
-    - { name: "java-playground", repo_url: "https://github.com/estevaowat/java-playground.git", dest: "~/Desktop/projects/java-playground" }
-    - { name: "nba-scoring-quarkus", repo_url: "https://github.com/estevaowat/nba-scoring-quarkus.git", dest: "~/Desktop/projects/nba-scoring-quarkus" }
+  loop: "{{ project }}"
